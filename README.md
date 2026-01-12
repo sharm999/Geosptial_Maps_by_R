@@ -28,7 +28,7 @@ The western edge (Plains side) contains more drier class colors (greys/pinks/mag
 Moving toward the central/eastern Midwest, colors trend into moderate to wetter classes (lavenders → blues/navies).
 3) Where “warm + wet” concentrates
 The dark navy areas correspond to higher temperature + higher precipitation (relative to the region). These often cluster in the central to southern/eastern portions of the Midwest in the map.
-What this means (why it’s useful)
+*What this means (why it’s useful)*
 This bivariate view is great for agriculture because it distinguishes climate regimes that can drive different yield risks:
 Warm + dry (magenta) → higher water stress risk, higher evaporative demand, stronger sensitivity to drought.
 Warm + wet (navy) → adequate water supply but potentially higher disease pressure, nutrient leaching risk, and waterlogging sensitivity in some landscapes.

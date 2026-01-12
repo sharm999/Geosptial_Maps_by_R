@@ -1,4 +1,7 @@
 # ==============================
+# Bivariate US Midwest Map using PRISM 2008 to 2025 Growing Seasin Data
+# Created by Dr. Mukts Sharma, Postdoctoral Researcher at Basso Lab, MSU.
+# ==============================
 # 1) PACKAGES
 # ==============================
 pacman::p_load(
@@ -177,4 +180,5 @@ ggsave(
   "Midwest_Bivariate_Climate_Map_with_PRISM_2008_2025_MayOct.png",
   plot   = full_map,
   width  = 14, height = 9, dpi = 600, bg = "white"
+
 )

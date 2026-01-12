@@ -9,7 +9,7 @@ pacman::p_load(
   rchelsa, biscale, elevatr, cowplot, ggnewscale)
 
 # ==============================
-# 3) REGION: MIDWEST STATES
+# 2) REGION: MIDWEST STATES
 #    (Census-style 12 states; tweak as needed)
 # ==============================
 midwest_states <- c(
@@ -42,7 +42,7 @@ CRS_CONUS <- "EPSG:5070"   # NAD83 / Conus Albers
 midwest_sf <- sf::st_transform(midwest_sf, CRS_CONUS)
 
 #############################################################################################
-# Plotting the Bivariate Graph using the PRISM 4km or 800m climate data
+# 3) Plotting the Bivariate Graph using the PRISM 4km or 800m climate data
 ############################################################################################
 # ==============================
 # 4) DOWNLOAD & BUILD PRISM CLIMATOLOGY (2008–2025, May–Oct)
@@ -123,7 +123,7 @@ breaks <- biscale::bi_class(
   dim = 3
 )
 # ==============================
-# 7) PLOT
+# 6) PLOT
 # ==============================
 theme_map <- function(){
   theme_minimal() +
@@ -174,7 +174,7 @@ full_map <- cowplot::ggdraw() +
 print(full_map)
 
 # ==============================
-# 8) SAVE
+# 7) SAVE
 # ==============================
 ggsave(
   "Midwest_Bivariate_Climate_Map_with_PRISM_2008_2025_MayOct.png",
@@ -182,3 +182,4 @@ ggsave(
   width  = 14, height = 9, dpi = 600, bg = "white"
 
 )
+

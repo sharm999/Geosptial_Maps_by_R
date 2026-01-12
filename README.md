@@ -1,5 +1,6 @@
 # Geosptial_Maps_by_R
 Creating all the geosptial maps using R language. I am trying to create the maps here in repostories for helping researhers and grow with me.
+
 Bivariate_Map_Midwest.r --- It's the bivariate map created by Dr. Mukta Sharma (inspiration: Milos Makes Maps tutorial https://www.youtube.com/watch?v=EECMHPn2Iuc&t=1319s), for US Midwest using PRISM dataset from 2008 to 2025 for May to October month (growing season).
 
 *What the map is showing*
